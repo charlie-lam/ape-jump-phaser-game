@@ -11,8 +11,8 @@ export default class startScene extends Phaser.Scene {
     }
 
     create(){
-        this.add.sprite(400,170,'snub').setScale(0.4);
-        /* local host locations
+        this.add.sprite(400,200,'snub').setScale(0.6);
+         //local host locations
         this.add.text(400, 100, 'Ape Jump', { fontSize: '40px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 300, 'Platform to reach the coin,', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 335, 'try to get the best time!', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
@@ -21,16 +21,16 @@ export default class startScene extends Phaser.Scene {
         this.add.text(400, 495, "F to restart if you're bad.", { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
 
         this.add.text(400, 550, 'Press ENTER to start!', { fontSize: '35px', fill: '#000' }).setOrigin(0.5,0.5);
-        */
-        this.add.text(400, 0, 'Ape Jump', { fontSize: '40px', fill: '#000' }).setOrigin(0.5,0.5);
+        
+        /*this.add.text(400, 0, 'Ape Jump', { fontSize: '40px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 220, 'Platform to reach the coin,', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 255, 'try to get the best time!', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 320, 'Direction keys to move,', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 355, 'space to jump. Dont get hit!', { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
         this.add.text(400, 415, "F to restart if you're bad.", { fontSize: '25px', fill: '#000' }).setOrigin(0.5,0.5);
 
-        this.add.text(400, 470, 'Press ENTER to start!', { fontSize: '35px', fill: '#000' }).setOrigin(0.5,0.5);
-
+        this.add.text(400, 450, 'Press ENTER to start!', { fontSize: '35px', fill: '#000' }).setOrigin(0.5,0.5);
+*/
         
 
     }
